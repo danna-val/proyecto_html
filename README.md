@@ -2,3 +2,6 @@
 ejercicio final de html y css adso 3387498
 
 iniciamos realizando nuestro primer cambio en el readme 
+
+
+saludando a los socios
