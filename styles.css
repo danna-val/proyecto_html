@@ -23,6 +23,34 @@ div{
 }
 
 
+.headerj{
+    width: 100%;
+    height: 950px;
+    background: radial-gradient(ellipse at 70% 50%, #e99207 10%, #ffc20a 100%, #ffd027 100%);
+    background-attachment: fixed; 
+    background-size: cover;
+    position: absolute;
+    
+}
+
+.icono-hamburguesa {
+
+    width: 200px;
+    height: 200px;
+    object-fit: contain; 
+    position: absolute;
+    top: 0;
+}
+
+
+.menuj{
+    width: 100%;
+    height: 200px;
+    border: solid 1px black;
+    position: relative;
+}
+
+
 .navj h2{
     top: 30px;
     right: -190px;
