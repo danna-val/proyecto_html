@@ -7,7 +7,7 @@ body{
 .headerj{
     width: 100%;
     height: 950px;
-    background: radial-gradient(ellipse at 70% 50%, #e99207 10%, #ffc20a 100%, #ffd027 100%);
+    background-image: url(fotos/a60968b3-a993-4134-b8fb-5bd3dc4d3ccc.png);
     background-attachment: fixed; 
     background-size: cover;
     position: absolute;
@@ -39,7 +39,6 @@ body{
 .menuj{
     width: 100%;
     height: 200px;
-    border: solid 1px black;
     position: absolute;
     z-index: 0;
 }
@@ -96,12 +95,58 @@ h3{
 .headerj2{
     width: 100%;
     height: 720px;
-    background-color: red;
     margin-top: 13px ;
-    padding: 15px;
+    padding: 40px;
    
   
 }
+
+.badge-rayitas {
+  border: 2px dashed #000000;
+  background-color: #00000000;
+  padding: 10px 14px;
+  display: inline-block;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #000000;
+  border-radius: 2px;
+  margin-top: 100px;
+  font-size: 10px;
+}
+
+.bwdiv{
+   font-size: 100px;
+    margin-top: 20px;
+    color: black;
+    letter-spacing: 5px;
+    line-height: 0.90;
+    font-weight: bold;
+    font-family: fantasy;
+    text-shadow:
+  1px 1px 1px #ffffff,
+  0px 0px 7px rgba(0, 0, 0, 0.4);
+}
+
+.prom {
+  width: 700px;
+  position: absolute;
+  right: 40px;
+  bottom: 50px;
+}
+
+.oferta {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(199, 28, 28);
+  right: 600px;
+  position: absolute;
+  bottom: 100px;
+ 
+  
+}
+
 
 
 
