@@ -58,6 +58,63 @@ body{
   0px 0px 7px rgba(0, 0, 0, 0.4);
     letter-spacing: 5px;
 }
+
+
+h3{
+    right: 40px;
+    position: absolute;
+    top: 30px;
+    font-family: Arial, sans-serif;
+}
+
+
+.navj2 {
+    display: flex;
+    justify-content: flex-end;   
+    gap: 30px;
+    padding: 8px 40px;
+    margin-top: 150px;
+}
+
+.navj2 a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    transition: color 0.2s;
+    z-index: 12;
+}
+
+.navj2 a:hover {
+    color: #7a0000;
+    cursor: pointer;
+}
+
+
+.headerj2{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    margin-top: 13px ;
+    padding: 15px;
+   
+  
+}
+
+
+
+
+
+
+
+
+
+/* Estos son los estilos de Danna */
+
+
+
 #png_2d{
     
     width: 100%;
@@ -118,49 +175,8 @@ body{
 }
 
 
-h3{
-    right: 40px;
-    position: absolute;
-    top: 30px;
-    font-family: Arial, sans-serif;
-}
 
 
-.navj2 {
-    display: flex;
-    justify-content: flex-end;   
-    gap: 30px;
-    padding: 8px 40px;
-    margin-top: 150px;
-}
 
-.navj2 a {
-    text-decoration: none;
-    color: #1a1a1a;
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    letter-spacing: 1.5px;
-    transition: color 0.2s;
-    z-index: 12;
-}
-
-.navj2 a:hover {
-    color: #7a0000;
-    cursor: pointer;
-}
-
-
-.headerj2{
-    width: 100%;
-    height: 100%;
-    background-color: red;
-    margin-top: 13px ;
-    padding: 15px;
-   
-  
-}
-
-/* Estos son los estilos de Danna */
 
 /* Estos son los estilos de Salome */
