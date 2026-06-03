@@ -1,4 +1,6 @@
-
+body{
+    overflow-x: hidden;
+}
 .headerj{
     width: 100%;
     height: 950px;
@@ -19,11 +21,24 @@
 }
 
 
+.icono-delivey {
+
+    width: 100px;
+    height: 100px;
+    right: 350px;
+    object-fit: contain; 
+    top: 10px;
+    position: absolute;
+    float: right;
+}
+
+
 .menuj{
     width: 100%;
     height: 200px;
     border: solid 1px black;
-    position: relative;
+    position: absolute;
+    z-index: 0;
 }
 
 
@@ -41,6 +56,34 @@
     letter-spacing: 5px;
 }
 
+h3{
+    right: 40px;
+    position: absolute;
+    top: 30px;
+    font-family: Arial, sans-serif;
+}
 
 
+.navj2 {
+    display: flex;
+    justify-content: flex-end;   
+    gap: 30px;
+    padding: 8px 40px;
+    margin-top: 150px;
+}
 
+.navj2 a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    transition: color 0.2s;
+    z-index: 12;
+}
+
+.navj2 a:hover {
+    color: #7a0000;
+    cursor: pointer;
+}
