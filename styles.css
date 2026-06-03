@@ -1,6 +1,7 @@
 body{
     overflow-x: hidden;
 }
+
 .headerj{
     width: 100%;
     height: 950px;
@@ -55,6 +56,65 @@ body{
   0px 0px 7px rgba(0, 0, 0, 0.4);
     letter-spacing: 5px;
 }
+#png_2d{
+    
+    width: 100%;
+    height: 950px;
+    margin: auto;
+    position: absolute;
+    margin-top: 900px;
+}
+#d_div1{
+    background-color: #ffc20a;
+    width: 1800px;
+    height: 450px;
+    
+    margin: auto;
+    position: relative;
+    margin-top: 100px;
+    z-index: 2;
+   
+   
+}
+.d_divimg1{
+    background-image: url(fotos/imgd_1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 870px;
+    height: 100%;
+}
+.d_divimg2{
+    background-image: url(fotos/imd_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 870px;
+    height: 200px;
+    margin: auto;
+    position: absolute;
+    left: 930px;
+    right: 0;
+    bottom: 250px;
+    top: 0;
+   
+  
+    
+    
+}
+.d_divimg3{
+    background-image: url(fotos/imgd_3.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 870px;
+    height: 200px;
+    margin: auto;
+    position: absolute;
+    left: 930px;
+    right: 0;
+    bottom: 0px;
+    top: 250px;
+    
+}
+
 
 h3{
     right: 40px;
