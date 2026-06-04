@@ -6,9 +6,8 @@ body{
 
 .headerj{
     width: 100%;
-    height: 950px;
+    height: 940px;
     background-image: url(fotos/a60968b3-a993-4134-b8fb-5bd3dc4d3ccc.png);
-    background-attachment: fixed; 
     background-size: cover;
     position: absolute;
     
@@ -176,6 +175,7 @@ h3{
   position: absolute;
   bottom: 108px;
   border: 2px dashed #ffffff;
+  position: absolute;
  
   
 }
@@ -197,6 +197,27 @@ h3{
 }
 
 
+/*pantalla #3*/
+
+.pantalla3{
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    position: absolute;
+    top: 1900px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Estos son los estilos de Danna */
@@ -210,6 +231,7 @@ h3{
     margin: auto;
     position: absolute;
     margin-top: 900px;
+    border: solid black
 }
 
 #d_div1{
