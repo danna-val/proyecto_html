@@ -9,6 +9,7 @@ body{
     height: 940px;
     background-image: url(fotos/a60968b3-a993-4134-b8fb-5bd3dc4d3ccc.png);
     background-size: cover;
+    background-attachment: fixed;
     position: absolute;
     
 }
@@ -202,18 +203,98 @@ h3{
 .pantalla3{
     width: 100%;
     height: 1000px;
-    background-size: cover;
     position: absolute;
     top: 1900px;
     background-color: black;
+     display: grid;
+     grid-template-columns: 30% 33% 30%;
+
+}
+
+
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: #2b2828;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 200px;
+    bottom: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;        
+    padding: 10px;
+    overflow: visible;
+}
+
+
+.card:hover {
+    transform: translateY(-10px) scale(1.2);
+    box-shadow: #7a0000 0px 15px 40px;
+    cursor: pointer;
+}
+
+
+.card img {
+    width: 500px;
+    height: 300px;
+   
+
+     margin: auto;      
+
+
 }
 
 
 
+.card h2 {
+    color: white;
+    font-family: fantasy;
+    letter-spacing: 8px;
+    text-align: center;
+    font-size: 22px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 10px;
+    margin-bottom: 12px;
+}
+
+
+.card p {
+    color: rgb(220, 50, 50);
+    text-align: left;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-style: italic;
+    margin-bottom: 14px;
+}
+
+
+.card ul {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Arial, sans-serif;
+    text-align: left;
+    font-size: 15px;
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card ul li::before {
+    content: '✦';
+    color: rgb(180, 30, 30);
+    margin-right: 10px;
+    font-size: 10px;
+}
 
 
 
-
+.btn-order:hover {
+    background-color: #7a0000;
+}
 
 
 
