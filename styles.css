@@ -221,16 +221,51 @@ h3{
     z-index: 2;
 }
 
-#png_2d p{
+
+.d_texto{
     color: #ffffff;
     z-index: 10;
     font-size: 40px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow:
+  1px 1px 1px #ffffff,
+  0px 0px 7px rgba(0, 0, 0, 0.4);
+}
+.d_texto2{
+    color: #ffffff;
+    z-index: 10;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow:
+    1px 1px 1px #ffffff,
+    0px 0px 7px rgba(0, 0, 0, 0.4);
+     margin: auto;
+    position: absolute;
+}
+.d_minitexto{
+    color: #ffffff;
+    z-index: 10;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow:
+  1px 1px 1px #ffffff,
+  0px 0px 7px rgba(0, 0, 0, 0.4);
+}
+.d_minitexto2{
+    color: #ffffff;
+    z-index: 10;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow:
+  1px 1px 1px #ffffff,
+  0px 0px 7px rgba(0, 0, 0, 0.4);
+  margin: auto;
+  position: absolute;
+
 }
 #d_divtexto{
     width: 260px;
     height: 150px;
-    background-color: #e99207;
     margin: auto;
     position: absolute;
     left: 20px;
@@ -241,14 +276,16 @@ h3{
     position: absolute;
     top: px;
 }
+
+
 .d_divtexto2{
     width: 260px;
     height: 150px;
-    background-color: #ffc20a;
     margin: auto;
     position: absolute;
     left: 20px;
     top: 20px;
+
 }
 
 .d_divimg1{
@@ -298,6 +335,71 @@ h3{
     bottom: 0;
     right: 100px;
 }
+
+#d_div2{
+    width: 1800px;
+    height: 320px;
+    margin: auto;
+    position: relative;
+    top: 75px;
+
+}
+#d_boton{
+    background-color: #f9c833;
+    width: 250px;
+    height: 40px;
+    margin: auto;
+    position: relative;
+    border-radius: 5px;
+    padding:10px;
+}
+#d_boton:hover{
+    cursor: pointer;
+    background-color: #efa631;
+}
+
+#d_div2 h1{
+        top: 30px;
+    right: -190px;
+    color: rgb(49, 27, 6);
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: fantasy;
+    text-shadow:
+  1px 1px 1px #ffffff,
+  0px 0px 7px rgba(0, 0, 0, 0.4);
+    letter-spacing: 5px;
+}
+#d_div2 h2{
+    margin: auto;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    font-family: fantasy;
+   
+}
+#d_div2 p{
+    font-size: 20px;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    text-align: center;
+     font-family: fantasy;
+}
+
+.div2_titulo{
+    margin: auto;
+    position: relative ;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
 
 
 
