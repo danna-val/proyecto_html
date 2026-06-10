@@ -1,81 +1,44 @@
-body{
-    overflow-x: hidden;
-}
 
 /* Estos son los estilos de Sebastian */
 
+.derecha{
+    background-color: red;
+}
+
 .headerj{
     width: 100%;
-    height: 940px;
+    height: 1160px;
     background-image: url(fotos/a60968b3-a993-4134-b8fb-5bd3dc4d3ccc.png);
     background-size: cover;
     background-attachment: fixed;
-    position: absolute;
-    
+    top: 0;
+
 }
 
-.icono-hamburguesa {
 
+
+.icono-hamburguesa {
     width: 200px;
     height: 200px;
     object-fit: contain; 
-    position: absolute;
     top: 0;
+    left: 0;
 }
 
-
-.icono-delivey {
-
-    width: 100px;
-    height: 100px;
-    right: 350px;
-    object-fit: contain; 
-    top: 10px;
-    position: absolute;
-    float: right;
+#delivery{
+    display: grid;
+    grid-template-columns: 70% 30%;
 }
 
-
-.menuj{
-    width: 100%;
-    height: 200px;
-    position: absolute;
-    z-index: 0;
-}
-
-
-.navj h2{
-    top: 30px;
-    right: -190px;
-    color: black;
+#menu{  
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
     position: relative;
-    font-size: 50px;
-    font-weight: bold;
-    font-family: fantasy;
-    text-shadow:
-  1px 1px 1px #ffffff,
-  0px 0px 7px rgba(0, 0, 0, 0.4);
-    letter-spacing: 5px;
+    margin-left: 260px;
+    margin-right: -12px;
 }
 
-
-h3{
-    right: 40px;
-    position: absolute;
-    top: 30px;
-    font-family: Arial, sans-serif;
-}
-
-
-.navj2 {
-    display: flex;
-    justify-content: flex-end;   
-    gap: 60px;
-    padding: 8px 40px;
-    margin-top: 150px;
-}
-
-.navj2 a {
+#menu a {
     text-decoration: none;
     color: #1a1a1a;
     font-family: Arial, sans-serif;
@@ -84,20 +47,72 @@ h3{
     letter-spacing: 1.5px;
     z-index: 12;
     position: relative;
-    padding-bottom: 4px;
+    padding-bottom: 1px;
     transition: letter-spacing 0.3s ease, color 0.3s;
+    margin-top: 20px;
 }
 
-.navj2 a::after {
+#menu a::after {
     content: '';
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 0;
+    width: 0px;
     height: 2px;
     background: #7a0000;
     transition: width 0.3s ease;
+
 }
+
+#menu a:hover {
+    color: #7a0000;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+#menu a:hover::after {
+    width: 70%;
+}
+   
+  
+
+#delivery img{
+    width: 200px;
+    float: right;
+    margin-left: 80%;
+}
+
+#delivery h3{
+margin-top: 50px;
+
+}
+
+.icon-start{
+    display: grid;
+    grid-template-columns: 18% 82%;
+}
+
+.icon-start h2{
+    margin-top: 90px;
+    font-size: 50px;
+    margin-top: 60px;
+    right: -190px;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: fantasy;
+    text-shadow: rgb(255, 255, 255) 1px 1px 1px, rgba(0, 0, 0, 0.4) 0px 0px 7px;
+    letter-spacing: 5px;
+}
+
+.menuj{
+    width: 100%;
+    height: 200px;
+    z-index: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
 
 .navj2 a:hover {
     color: #7a0000;
@@ -113,10 +128,7 @@ h3{
 .headerj2{
     width: 100%;
     height: 720px;
-    margin-top: 13px ;
-    padding: 40px;
-   
-  
+    margin-top: 100px;
 }
 
 .badge-rayitas {
@@ -124,17 +136,17 @@ h3{
   background-color: #00000000;
   padding: 10px 14px;
   display: inline-block;
-  font-size: 20px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
   color: #000000;
   border-radius: 2px;
   margin-top: 100px;
-  font-size: 10px;
+  font-size: 15px;
+  margin-left: 25px;
 }
 
 .bwdiv{
-   font-size: 100px;
+   font-size: 200px;
     margin-top: 20px;
     color: black;
     letter-spacing: 5px;
@@ -144,6 +156,7 @@ h3{
     text-shadow:
   1px 1px 1px #ffffff,
   0px 0px 7px rgba(0, 0, 0, 0.4);
+  margin-left: 25px;
 }
 
 .prom {
@@ -203,7 +216,6 @@ h3{
 .pantalla3{
     width: 100%;
     height: 1000px;
-    position: absolute;
     top: 1900px;
     background-color: black;
      display: grid;
@@ -296,23 +308,16 @@ h3{
     background-color: #7a0000;
 }
 
-
-
-
-
-
 /* Estos son los estilos de Danna */
-
-
 
 #png_2d{
     
     width: 100%;
     height: 950px;
     margin: auto;
-    position: absolute;
     margin-top: 900px;
-    border: solid black
+    border: solid black;
+    background-color: red;
 }
 
 #d_div1{
@@ -504,7 +509,9 @@ h3{
 }
 
 
+/* En las hamburguesas cambiale la tipografia de los nombres we, por fi att: 3293992 ;D */
 
+/* ¿A cual le cambiamos entonces ? 👁️👄👁️ */
 
 
 
