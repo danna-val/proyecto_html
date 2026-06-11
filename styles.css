@@ -1,6 +1,11 @@
 
 /* Estos son los estilos de Sebastian */
 
+html {
+    scroll-behavior: smooth ;
+
+}
+
 .derecha{
     background-color: red;
 }
@@ -215,29 +220,106 @@ margin-top: 50px;
 
 .pantalla3{
     width: 100%;
-    height: 1000px;
+    height: 3000px;
     top: 1900px;
     background-color: black;
      display: grid;
-     grid-template-columns: 30% 33% 30%;
+     grid-template-columns: 33% 33% 33%;
+
 
 }
 
 
+.menu-header {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 50px 20px 40px;
+  margin-left: 40px;
+  margin-top: 50px;
+  border-radius: 100px;
+  filter: drop-shadow(5px 0px 30px rgba(255, 0, 0, 0.425))
+          drop-shadow(5px 0px 5px rgba(255, 255, 255, 0.507));
+  
+}
+
+.menu-eyebrow {
+  display: inline-block;
+  font-size: 20px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: rgb(220, 50, 50);
+  border: 1px solid rgba(220, 50, 50, 0.3);
+  padding: 5px 18px;
+  border-radius: 2px;
+  margin-bottom: 18px;
+  font-family: Arial, sans-serif;
+}
+
+.menu-title {
+  font-family: fantasy;
+  font-size: 300px;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  line-height: 1;
+  margin: 0 0 16px;
+}
+
+.menu-title span {
+  color: rgb(220, 50, 50);
+}
+
+.menu-desc {
+  color: #888;
+  font-size: 15px;
+  max-width: 480px;
+  margin: 0 auto;
+  line-height: 1.7;
+  font-family: Arial, sans-serif;
+}
+
+.menu-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.menu-divider::before,
+.menu-divider::after {
+  content: '';
+  width: 600px;
+  height: 1px;
+  background: rgba(220, 50, 50, 0.3);
+}
+
+.menu-divider-dot {
+  width: 6px;
+  height: 6px;
+  background: rgb(220, 50, 50);
+  transform: rotate(45deg);
+}
+
+
 .card{
-    width: 300px;
-    height: 400px;
+    width: 600px;
+    height: 800px;
     background-color: #2b2828;
-    margin: auto;
     left: 0;
     right: 0;
-    top: 200px;
     bottom: 0;
+    margin: auto;
+    margin-top: 100px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;        
-    padding: 10px;
+    padding: 40px;
     overflow: visible;
+
+    margin-bottom: -10px;
+
 }
 
 
@@ -251,10 +333,9 @@ margin-top: 50px;
 .card img {
     width: 500px;
     height: 300px;
-     margin: auto;   
+     margin: auto;
      filter: drop-shadow(1px 5px 2px rgba(255, 255, 255, 0.9))
           drop-shadow(1px 5px 100px rgba(255, 255, 255, 0.5));
-          z-index: 1;   
 
 
 }
@@ -266,17 +347,18 @@ margin-top: 50px;
     font-family: fantasy;
     letter-spacing: 8px;
     text-align: center;
-    font-size: 22px;
+    font-size: 40px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     padding-bottom: 10px;
     margin-bottom: 12px;
+    margin-top: -20px;
 }
 
 
 .card p {
     color: rgb(220, 50, 50);
     text-align: left;
-    font-size: 13px;
+    font-size: 20px;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     font-style: italic;
@@ -288,7 +370,7 @@ margin-top: 50px;
     color: rgba(255, 255, 255, 0.9);
     font-family: Arial, sans-serif;
     text-align: left;
-    font-size: 15px;
+    font-size: 30px;
     list-style-type: none;
     padding-left: 0;
     display: flex;
@@ -303,10 +385,27 @@ margin-top: 50px;
     font-size: 10px;
 }
 
-
-.btn-order:hover {
-    background-color: #7a0000;
+.btn-card {
+    background: #b41e1e;
+    color: white;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    width: 100%;
+    height: 80px;
+    margin-top: 50px;
 }
+
+.btn-card:hover {
+    background: #d62828;
+}
+
+
+
+
+
+
 
 
 
