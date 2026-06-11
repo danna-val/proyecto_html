@@ -314,25 +314,13 @@ margin-top: 50px;
 
 /* Estos son los estilos de Danna */
 
-<<<<<<< HEAD
-
-
- #png_2d{
-    
-=======
 #png_2d{
     border: 1px solid rgba(0, 0, 0, 0);
->>>>>>> 7d993794388dbbbcf998139b94ec58d91d75c28d
     width: 100%;
     height: 100vh;
     margin: auto;
-<<<<<<< HEAD
-    margin-top: 900px;
-    background-color: red;
-=======
     margin-top: -0px;
 
->>>>>>> 7d993794388dbbbcf998139b94ec58d91d75c28d
 }
 
 #d_div1{
