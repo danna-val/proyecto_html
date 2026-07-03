@@ -544,7 +544,10 @@ margin-top: 50px;
     height: 100%;
     z-index: 10;
     background-color: #7a0000;
-    background-image: url (fotos/i);
+}
+.dpg4_nav2 img{
+    width: 100%;
+    height: 100%;
 }
 
 
