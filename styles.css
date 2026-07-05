@@ -428,7 +428,7 @@ margin-top: 50px;
 }
 
 .footer-overlay {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.754);
   padding: 30px;
   border-radius: 8px;
 }
@@ -446,18 +446,22 @@ margin-top: 50px;
 }
 
 .footer-brand h2 {
-  font-size: 22px;
-  letter-spacing: 1px;
+  font-size: 45px;
+  letter-spacing: 10px;
   margin: 10px 0;
+  font-family: fantasy;
+  color: #fad43d;
+ 
 }
+
 
 .footer-logo {
   width: 40px;
 }
 
 .footer-text {
-  font-size: 14px;
-  color: #ccc;
+  font-size: 15px;
+  color: #ff0000;
   line-height: 1.6;
 }
 
