@@ -693,6 +693,13 @@ margin-top: 50px;
 .dpg4_nav1 p{
     font-size: 2.5vh;
 }
+/*estilos pagina 5*/
+#dpg5_cuerpo{
+    background-color: #aa987a;
+    width: 100%;
+    height: 100vh;
+
+}
 
 
 /* En las hamburguesas cambiale la tipografia de los nombres we, por fi att: 3293992 ;D */
