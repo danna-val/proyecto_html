@@ -793,19 +793,19 @@ margin-top: 50px;
 }
 
 
-.contenido{
+.d5_contenido{
     text-align:center;
     width:650px;
 }
 
-.contenido h4{
+.d5_contenido h4{
     font-size:18px;
     color:#5a2d1d;
     margin-bottom:10px;
     letter-spacing:2px;
 }
 
-.contenido h1{
+.d5_contenido h1{
     font-size:50px;
     color:#3b1d14;
     margin-bottom:40px;
@@ -841,21 +841,21 @@ form button:hover{
 
 /* Imágenes */
 
-.hamburguesa1{
+.d5_hamburguesa1{
     position:absolute;
     top:20px;
     left:20px;
     width:120px;
 }
 
-.botella{
+.d5_botella{
     position:absolute;
     left:100px;
     top:230px;
     width:70px;
 }
 
-.hamburguesa2{
+.d5_hamburguesa2{
     position:absolute;
     right:20px;
     bottom:20px;
