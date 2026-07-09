@@ -845,23 +845,24 @@ form button:hover{
 .d5_hamburguesa1{
     position:absolute;
     top:20px;
-    left:20px;
-    width:200px;
+    left:8vh;
+    width:30vh;
+    transform: rotate(-15deg);
 }
 
 .d5_botella{
     position:absolute;
-    left:100px;
-    top:300px;
-    width:30vh;
+    left:10vh;
+    top:50vh;
+    width:38vh;
      transform: rotate(15deg);
 }
 
 .d5_hamburguesa2{
     position:absolute;
-    right:-21%;
+    right:-51vh;
     bottom:20px;
-    width:500px;
+    width:90vh;
 }
 
 
